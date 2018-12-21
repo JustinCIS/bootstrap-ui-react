@@ -2,7 +2,7 @@
   "name": "bootstrap-ui-react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://justincis.github.io/bootstrap-ui-react",
+  "homepage": "https://justincis.github.io/bootstrap-ui-react",
   "dependencies": {
     "bootstrap": "^4.1.3",
     "node-sass": "^4.11.0",
