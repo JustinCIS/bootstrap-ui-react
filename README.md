@@ -1,44 +1,36 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Front-End Developer Challenge and Questions
+We realize there are often multiple solutions or answers to the same questions and to the challenge in particular. We do not necessarily have “right or wrong” in mind, we are simply looking to learn a bit about you, and your approach to development. 
 
-## Available Scripts
 
-In the project directory, you can run:
+## Questions:
 
-### `npm start`
+### What front-end component libraries or frameworks have you used besides bootstrap?
+React Material UI, React Native Material UI, PrimeReact, Angular Material, PrimeNG, etc.
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### What tools would you implement to enforce code quality rules and standards? 
+ESLint, Prettier, Flow
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+### What HTML templating languages or engines have you used?
+Underscore, Pug, Lodash
 
-### `npm test`
+### Which code related blogs or sites do you read regularly?
+PluralSight, Academind, Coursetro, SitePoint, Stack Overflow, HackerNoon, Codeburst.io, /r/Javascript, etc. 
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### In Sass, what is the significance of using an underscore at the beginning of a sass file name?
+Denotes the usage of a partial class, which is used for imports/modularity.
 
-### `npm run build`
+### Name a few (npm) node modules that you think are most useful?
+Express, Redux, Chalk, Request, Moment, Axios, Mongoose, JSON-Server, etc. 
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Given the option to choose Angular, React or Vue.js for a new project which would you choose and why? What type of requirements might affect your decision to use one over the other?
+This is a fairly loaded question, but given my lack of experience in Vue.js, I can only speak from an Angular vs React position (albeit I wouldn’t mind picking up Vue.js given how it apparently leverages the best of both Angular and React worlds.  I would have to consider what our workforce is most comfortable with – and would listen to any/all arguments pining for it), but given the strength of both the Angular and React communities/founding bodies (Google and Facebook respectively), I’d feel comfortable picking between the two.
+I would say the main requirements that would impact my decision to use one technology over the other would be performance, and scalability.  As a Framework, sometimes Angular can be convoluted and includes toolsets that you may not necessarily need (which can of course impact performance), whereas with React, you have to choose your toolsets since its focus is primarily on the view.  It does generally perform better than Angular as a result of its Virtual DOM, however, React typically takes more time to bootstrap and get going since you have to take the time to select your accompanying toolsets.  From a scalability standpoint, you would have to consider testability and whether or not mobile will be an option down the road.  Angular’s path to mobile is generally split between two products - Ionic and NativeScript, whereas React is a bit more clear cut with React Native.  At the end of the day, many items can be considered, but some would argue that “feel” is the most compelling case to be made when picking between Javascript Frameworks.
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+### If you were referred to an unfamiliar node project repo, what file or files would you first look to, to determine the commands to run, build and test the project?
+Package.json, README.md
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### What is the benefit of using the HTML ‘nav’ element vs. a div with the class of .nav?
+The Nav tag provides a semantic block element that informs browsers and developers that the area is reserved for Navigationelements/links. 
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+### What code related framework, library or language do you want to learn next?
+I’d like to keep pushing the envelope in both Angular, React and Node, but other than that, I’d like to add Vue to the list at some point.  Electron, Flutter and Cycle.js have also peeked my interest as well.
